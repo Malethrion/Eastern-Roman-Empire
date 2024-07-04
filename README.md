@@ -131,6 +131,6 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 Happy coding!
 
 
-
+font - https://fonts.google.com/specimen/Gideon+Roman?query=roman
 
 favicon - https://www.favicon.cc/?action=icon&file_id=531600
