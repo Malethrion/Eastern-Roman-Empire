@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #5e443a;
-    font-family: "Gideon Roman", serif;
+    font-family: "Gideon Roman", sans-serif;
 }
 
 
@@ -33,15 +33,20 @@ header {
     align-items: baseline;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
-    font-family: 'Gideon Roman', serif;
+    font-family: 'Gideon Roman', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
 
 #menu{
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 4px;
     list-style-type: none;
 }
@@ -79,6 +84,7 @@ nav {
     font-size: 2rem;
 }
 
+
 /* Main content */
 main {
     color: black;
@@ -113,11 +119,11 @@ footer {
 
     .nav-toggle-label {
         display: none;
-    }¨
+    }
 
     #logo {
         font-size: 280%;
-        line-height: 75px;
+        line-height: 76px;
         margin: 0 0.5rem;
     }
 
@@ -125,5 +131,12 @@ footer {
     main {
         /* Push main content down to accommodate large header */
         margin-top: 79px;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
