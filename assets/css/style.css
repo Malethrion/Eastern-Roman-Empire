@@ -93,10 +93,21 @@ main {
     flex: 1 0 auto;
     margin-top: 80;
 }
+
 /* Footer */
-footer {
-    color: black;
-    background-color: #ffffff;
+#social-networks-and-links {
+    text-align: center;
+    padding: 20px 0;
+    bottom: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+#social-networks-and-links i {
+    font-size: 200%;
+    color: #3a3a3a;
 }
 /* Media query: tablets and larger (768 and up) */
 @media screen and (min-width: 768px) {
