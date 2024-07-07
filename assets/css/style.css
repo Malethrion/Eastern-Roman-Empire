@@ -18,6 +18,12 @@ body {
     font-family: "Gideon Roman", sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Gideon Roman', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
 
 /* Header */
 header {
@@ -36,13 +42,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Gideon Roman', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
 }
 
 #menu{
@@ -94,12 +93,30 @@ main {
 
 /* Hero Section */
 #hero {
-    height: 600px;
+    height: 1250px;
     width: 100%;
     background: url("../images/Constantinople.webp") no-repeat center center/cover;
+    position: relative;
+    
 }
 
-/* Footer */
+#cover-text {
+    background-color: antiquewhite;
+    opacity: .7;
+    font-size: 180%;
+    position: relative;
+    top: 300px;
+    width: 80%;
+    min-height: 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+}   
+
+#cover-text > h2, #cover-text > h3 {
+    color: black;
+}
+    
+    /* Footer */
 #social-networks-and-links {
     text-align: center;
     padding: 20px 0;
