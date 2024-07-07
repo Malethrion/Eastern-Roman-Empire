@@ -176,8 +176,8 @@ main {
 }
 
 #historical-eras {
-    width: 90%;
-    margin: 20px auto;
+    width: 100%;
+    background: url("../images/oldparchment.jpeg") no-repeat center center/cover;
 }
 
 #historical-eras h2 {
@@ -193,6 +193,7 @@ main {
 }
 
 #time-periods p {
+    color: black;
     padding: 0 20px;
 }
 
