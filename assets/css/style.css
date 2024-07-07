@@ -22,7 +22,7 @@ body {
 /* Header */
 header {
     color: black;
-    background-color: #ffffff;
+    background: url("../images/marble-background.jpg") no-repeat center center/cover;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -62,7 +62,7 @@ h1 {
 /* Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background: url("../images/marble-background.jpg") no-repeat center center/cover;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -87,11 +87,16 @@ nav {
 
 /* Main content */
 main {
-    color: black;
-    background-color: #e6e4d8;
      /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 80;
+}
+
+/* Hero Section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/Constantinople.webp") no-repeat center center/cover;
 }
 
 /* Footer */
@@ -103,6 +108,7 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
     padding-left: 1rem;
+    background: url("../images/marble-background.jpg") no-repeat center center/cover;
 }
 
 #social-networks-and-links i {
