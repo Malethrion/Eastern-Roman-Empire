@@ -217,3 +217,10 @@ main {
     align-items: center;
     justify-content: center;
  }
+
+ /* Geography */
+ #geography {
+    background: url("../images/oldparchment.jpeg");
+    width: 100%;
+    line-height: 1em;
+ }
