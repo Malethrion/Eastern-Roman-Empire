@@ -134,3 +134,15 @@ Happy coding!
 font - https://fonts.google.com/specimen/Gideon+Roman?query=roman
 
 favicon - https://www.favicon.cc/?action=icon&file_id=531600
+
+sources:
+
+https://en.wikipedia.org/wiki/Byzantine_Empire
+
+https://en.wikipedia.org/wiki/Constantinople
+
+https://en.wikipedia.org/wiki/Thessaloniki#History
+
+https://en.wikipedia.org/wiki/Antioch
+
+https://en.wikipedia.org/wiki/Alexandria
