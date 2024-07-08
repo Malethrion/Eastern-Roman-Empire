@@ -236,6 +236,8 @@ main {
  #regional-capitals p {
     color: black;
     padding: 0 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
  }
 
  #regional-capitals hr {
@@ -245,7 +247,7 @@ main {
 
 #regional-capitals-image {
     background: url("../images/constantinople.jpg") no-repeat top center / cover;
-    height: 90vw;
-    width: 90vw;
+    height: 35vw;
+    width: 95vw;
     margin-bottom: 20px;
 }
