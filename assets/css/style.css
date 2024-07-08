@@ -62,13 +62,13 @@ header a {
 /* Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
-    background: url("../images/marble-background.jpg") no-repeat center center/cover;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 /* Nav toggle */
@@ -125,6 +125,12 @@ main {
     background: url(../images/oldparchment.jpeg) no-repeat center center/cover;
     width: 100%;
     line-height: 1em;
+    text-align: center;
+    column-count: 1;
+ }
+
+ #geography img {
+    width: 100%;
  }
 
  /* Major Cities */
@@ -132,6 +138,7 @@ main {
     background: url(../images/oldparchment.jpeg) no-repeat center center/cover;
     width: 100%;
     line-height: 1em;
+    background-attachment: fixed;
  }
     
     /* Footer */
@@ -154,13 +161,16 @@ main {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #geography {
-        column-count: 1;
+        column-count: 2;
         column-gap: 0;
     }
 }
 
 /* Media query: tablets and larger (768 and up) */
 @media screen and (min-width: 768px) {
+    #geography {
+    column-count: 3;
+    }
     /* Header */
     nav {
         display: block;
@@ -184,7 +194,7 @@ main {
     }
 
     #logo {
-        font-size: 280%;
+        font-size: 200%;
         line-height: 76px;
         margin: 0 0.5rem;
     }
@@ -206,26 +216,31 @@ main {
 #historical-eras {
     width: 100%;
     background: url("../images/oldparchment.jpeg") no-repeat center center/cover;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #historical-eras h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #early-period>div,
 #late-period>div {
+    background-color: rgba(255, 255, 255, 0.5);
     line-height: 20px;
     margin-bottom: 20px;
 }
 
 #time-periods p {
+    background-color: rgba(255, 255, 255, 0.5);
     color: black;
     padding: 0 20px;
 }
 
 #time-periods hr {
+    background-color: rgba(255, 255, 255, 0.5);
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
@@ -246,6 +261,10 @@ main {
     justify-content: center;
  }
 
+#regional-capitals {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
  #regional-capitals p {
     color: black;
     padding: 0 20px;
@@ -261,7 +280,7 @@ main {
 #regional-capitals-image {
     background: url("../images/constantinople.jpg") no-repeat top center / cover;
     height: 35vw;
-    width: 95vw;
+    width: 100%;
     margin-bottom: 20px;
 }
 
