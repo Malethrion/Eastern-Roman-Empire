@@ -151,6 +151,14 @@ main {
     color: #3a3a3a;
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #geography {
+        column-count: 1;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768 and up) */
 @media screen and (min-width: 768px) {
     /* Header */
