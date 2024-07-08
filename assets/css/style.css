@@ -118,7 +118,14 @@ main {
 
  /* Geography page*/
  #geography {
-    background: url(../images/oldparchment.jpeg) no-repeat center center/cover;;
+    background: url(../images/oldparchment.jpeg) no-repeat center center/cover;
+    width: 100%;
+    line-height: 1em;
+ }
+
+ /* Major Cities */
+ #majorcities {
+    background: url(../images/oldparchment.jpeg) no-repeat center center/cover;
     width: 100%;
     line-height: 1em;
  }
@@ -139,6 +146,7 @@ main {
     font-size: 200%;
     color: #3a3a3a;
 }
+
 /* Media query: tablets and larger (768 and up) */
 @media screen and (min-width: 768px) {
     /* Header */
@@ -224,3 +232,20 @@ main {
     align-items: center;
     justify-content: center;
  }
+
+ #regional-capitals p {
+    color: black;
+    padding: 0 20px;
+ }
+
+ #regional-capitals hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#regional-capitals-image {
+    background: url("../images/constantinople.jpg") no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+}
