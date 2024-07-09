@@ -10,51 +10,52 @@ Few ever hear about the fate of the eastern roman empire or even its existance. 
   - All pages are featured with a full repsonsive navigation bar which include llinks to The Logo, Home page, Major Cities, Geography and Newsletter page. Having a complete identical system of navigation makes it easy and ocomfortable to jump in between the pages.
   - The navigation section will allow the user to comfortably navigate on all devices esaily without having to resort to "back" button.
 
-![Nav Bar](
+![Nav Bar](https://raw.githubusercontent.com/Malethrion/Eastern-Roman-Empire/main/assets/images/easternromenavigation.png)
 
 - __The landing page image__
 
 - The landing includes a detailed artful illustration of the capital Constantinople with overlay text with short symbolic description about the empire and when it existed.
 - This section introduces the user to a beautiful grandeur view of eastern rome to grab full atention of what is to be expected of the site.
 
-![Landing Page]
+![Landing Page](https://raw.githubusercontent.com/Malethrion/Eastern-Roman-Empire/main/assets/images/constantinople.webp)
 
 - __HISTORICAL ERAS 518AD - 1453AD__
 
 - The historical eras section is split into intresting eras of the empire from early to fall. It will grab the user and create a rough picture of eastern romes existence.
 - Through this the user will see what is interesting about the eastern roman empire and most likely would like to know more.
 
-![Historical eras ]
+![Historical eras](https://raw.githubusercontent.com/Malethrion/Eastern-Roman-Empire/main/assets/images/historicaleras.png)
 
 - At the bottom beneath the eras there is a beautiful roundstyled picture of the eastern roman emblem to catch futher cultural interest.
 
+![emblem](https://raw.githubusercontent.com/Malethrion/Eastern-Roman-Empire/main/assets/images/easternromanemblem.jpg)
 
 - __The Footer__
 
 - The footer section will allow the user to click on links to social media sites and wikipedia for more rough collected information about the eastern roman empire. To achieve easy navigation the links will open new tabs for the user.
 - The footer is very valuable since it both encourage contact through social media and also give a source of further information through the wikipedia page.
 
-![Footer]
+![Footer](https://raw.githubusercontent.com/Malethrion/Eastern-Roman-Empire/main/assets/images/easternromanfooter.png)
 
 - __Major Cities__
 
 - The major cities page introduces the user to the 4 most major cities of the eastern roman empire. To create a lasting impression the first thing the user see is a beautiful artowrk of Constantinople at the top above the Major Cities section
 - The page informs the user about each city's heritage and historical events and also the purpose and meaning each city represented to the empire.
 
-![Major Cities page]
+![Major Cities page]()
 
 - __Geography__
 
 - The geography page provides the user with images and maps of various eras of the eastern roman empire, a detailed city map of constantinople and an animated map representing the territory of each era switching in between.
 - This page will be valuable to the user in case they would like to have a more visual representation of what the empire looked like through history.
 
-![Geography page]
+![Geography page](https://raw.githubusercontent.com/Malethrion/Eastern-Roman-Empire/main/assets/images/geaography.png)
 
 - __Newsletter__
 
 - The newsletter will allow the user to get signed up to newsletter and short stories. Stories from various eras in the empire and news related to historical takes and archeological findings. The user will be able to sign up for either stoies or newsletter or both. The user will be asked to submit their fullname and email adress.
 
-![Newsletter Page]
+![Newsletter Page]()
 
 ### Features Left to Implement
 
@@ -79,7 +80,7 @@ picture documentation follows bellow:
 ### Unfixed bugs
 The only bugs noted are when you toggle between some devices with "toggle device toolbar" some text and images might look less than ideal status.
 
-![bug]
+![bug](https://raw.githubusercontent.com/Malethrion/Eastern-Roman-Empire/main/assets/images/bug.png)
 
 ## Deployment
 
@@ -158,8 +159,6 @@ https://wallpapers.com/white-marble-hd
 - Background artwork :
 
 https://www.istockphoto.com/se/fotografier/old-parchment
-
-
 
 
 ### Notable mistakes
